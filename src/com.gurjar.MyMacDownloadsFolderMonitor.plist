@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.gurjar.MyMacDownloadsFolderMonitor</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/bin/java</string>
+        <string>-jar</string>
+        <string>/Users/rajneeshbaisoya/MyMacDownloadsFolderMonitor/MyMacDownloadsFolderMonitor.jar</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/Users/rajneeshbaisoya/MyMacDownloadsFolderMonitor/MyMacDownloadsFolderMonitor.out.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/rajneeshbaisoya/MyMacDownloadsFolderMonitor/MyMacDownloadsFolderMonitor.err.log</string>
+</dict>
+</plist>
