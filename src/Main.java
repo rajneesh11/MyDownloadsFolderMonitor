@@ -6,35 +6,7 @@ import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
-        Set<String> extSet = new HashSet<>();
-        extSet.add("mkv");
-        extSet.add("mp4");
-        extSet.add("mov");
-        extSet.add("avi");
-        extSet.add("png");
-        extSet.add("jpg");
-        extSet.add("jpeg");
-        extSet.add("svg");
-        extSet.add("gif");
-        extSet.add("bmp");
-        extSet.add("pdf");
-        extSet.add("doc");
-        extSet.add("docx");
-        extSet.add("xsl");
-        extSet.add("xsls");
-        extSet.add("txt");
-        extSet.add("ppt");
-        extSet.add("pptx");
-        extSet.add("dmg");
-        extSet.add("zip");
-        extSet.add("rar");
-        extSet.add("7z");
-        extSet.add("tar");
-        extSet.add("gz");
-        extSet.add("mp3");
-        extSet.add("wav");
-        extSet.add("aac");
-        extSet.add("ogg");
+        Set<String> extSet = getExtSet();
         try {
             Path downloadFolderPath = Paths.get(System.getProperty("user.home"), "Downloads");
 
@@ -91,6 +63,39 @@ public class Main {
         } catch (IOException | InterruptedException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    private static Set<String> getExtSet() {
+        Set<String> extSet = new HashSet<>();
+        extSet.add("mkv");
+        extSet.add("mp4");
+        extSet.add("mov");
+        extSet.add("avi");
+        extSet.add("png");
+        extSet.add("jpg");
+        extSet.add("jpeg");
+        extSet.add("svg");
+        extSet.add("gif");
+        extSet.add("bmp");
+        extSet.add("pdf");
+        extSet.add("doc");
+        extSet.add("docx");
+        extSet.add("xsl");
+        extSet.add("xsls");
+        extSet.add("txt");
+        extSet.add("ppt");
+        extSet.add("pptx");
+        extSet.add("dmg");
+        extSet.add("zip");
+        extSet.add("rar");
+        extSet.add("7z");
+        extSet.add("tar");
+        extSet.add("gz");
+        extSet.add("mp3");
+        extSet.add("wav");
+        extSet.add("aac");
+        extSet.add("ogg");
+        return extSet;
     }
 
     private static void moveNewFileToTargetFolder(Path fileName, String folderPath) {
