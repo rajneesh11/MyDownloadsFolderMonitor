@@ -3,20 +3,20 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.gurjar.MyMacDownloadsFolderMonitor</string>
+    <string>MyMacDownloadsFolderMonitor</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/bin/java</string>
+        <string>java</string>
         <string>-jar</string>
-        <string>/Users/rajneeshbaisoya/MyMacDownloadsFolderMonitor/MyMacDownloadsFolderMonitor.jar</string>
+        <string>/path/to/MyMacDownloadsFolderMonitor.jar</string>
     </array>
     <key>RunAtLoad</key>
     <true/>
     <key>KeepAlive</key>
     <true/>
     <key>StandardOutPath</key>
-    <string>/Users/rajneeshbaisoya/MyMacDownloadsFolderMonitor/MyMacDownloadsFolderMonitor.out.log</string>
+    <string>/path/to/MyMacDownloadsFolderMonitor.out.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/rajneeshbaisoya/MyMacDownloadsFolderMonitor/MyMacDownloadsFolderMonitor.err.log</string>
+    <string>/path/to/MyMacDownloadsFolderMonitor.err.log</string>
 </dict>
 </plist>
