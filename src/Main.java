@@ -46,8 +46,10 @@ public class Main {
                                         "Downloads/pdfs");
                                 break;
                             case "dmg":
+                            case "pkg":
+                            case "app":
                                 moveNewFileToTargetFolder(downloadFolderPath.resolve(fileName.getFileName()),
-                                        "Downloads/dmg");
+                                        "Downloads/mexe");
                                 break;
                             default:
                                 moveNewFileToTargetFolder(downloadFolderPath.resolve(fileName.getFileName()),
@@ -86,6 +88,8 @@ public class Main {
         extSet.add("ppt");
         extSet.add("pptx");
         extSet.add("dmg");
+        extSet.add("pkg");
+        extSet.add("app");
         extSet.add("zip");
         extSet.add("rar");
         extSet.add("7z");
