@@ -2,7 +2,7 @@
   <artifact type="jar" name="MyMacDownloadsFolderMonitor:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/MyMacDownloadsFolderMonitor_jar</output-path>
     <root id="archive" name="MyMacDownloadsFolderMonitor.jar">
-      <element id="module-output" name="MyMacDownloadsFolderMonitor" />
+      <element id="module-output" name="MyDownloadsFolderMonitor" />
     </root>
   </artifact>
 </component>
