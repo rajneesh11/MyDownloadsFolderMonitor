@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="MyDownloadsFolderMonitor:jar" />
+      <artifact name="MyMacDownloadsFolderMonitor:jar" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -114,7 +114,7 @@
       <workItem from="1703503758894" duration="2349000" />
       <workItem from="1703512783175" duration="1425000" />
       <workItem from="1704445343894" duration="281000" />
-      <workItem from="1752923945513" duration="4189000" />
+      <workItem from="1752923945513" duration="4435000" />
     </task>
     <task id="LOCAL-00001" summary="New Files, notification doesn't seem to be working.">
       <option name="closed" value="true" />
